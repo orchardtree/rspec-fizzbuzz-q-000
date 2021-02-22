@@ -5,7 +5,9 @@ def fizzbuzz (number)
     "Fizz"
     else if number % 5 == 0
     "Buzz"
-  else if number % 3 == 0 || number % 5 == 0 
+    end
+    else if number % 3 == 0 || number % 5 == 0 
     "FizzBuzz"
+    end
   end
 end
