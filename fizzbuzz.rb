@@ -3,7 +3,7 @@
 def fizzbuzz (number)
   if number / 3
     "Fizz"
-  elseif number / 5
+  else if number / 5
     "Buzz"
   end
 end
